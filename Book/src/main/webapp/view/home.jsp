@@ -41,7 +41,7 @@
             <div class="col-md-10">
                 <div class="table-customer" style="padding: 50px 30px 50px 10px;">
                     <form action="/RentalRoom" method="post">
-                        <input type="hidden" name="action" value="delMany">
+                        <input type="hidden" name="action" value="deleteALot">
                         <table class="table">
                             <thead class="thead-dark" style="background: #198754; color: white">
                             <tr>
