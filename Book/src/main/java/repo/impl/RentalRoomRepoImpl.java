@@ -68,7 +68,6 @@ public class RentalRoomRepoImpl implements IRentalRoomRepo {
                     String borrowDate = resultSet.getString("borrow_date");
                     String payment = resultSet.getString("payment_name");
                     String note = resultSet.getString("note");
-
                     list.add(new RentalRoom(idS, nameS, phoneS, borrowDate, payment, note));
                 }
             } catch (SQLException e) {
